@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <ctime>
 using namespace std;
 void createMap(int* f[], int m, int n, int k)
@@ -59,7 +60,7 @@ int main()
     t = m * n - k;
     createMap(f, m, n, k);
     while (t > 0)
-    {
+    {    	
         cout << "(x,y): ";
         cin >> x >> y;
         if (f[x][y] == -2)
