@@ -59,6 +59,7 @@ int main()
         for (int j = 0; j <= n + 1; j++) f[i][j] = -1;
     t = m * n - k;
     createMap(f, m, n, k);
+    printMap(f, m, n);
     while (t > 0)
     {    	
         cout << "(x,y): ";
