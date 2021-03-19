@@ -70,6 +70,7 @@ int main()
         }
         else
         {
+        	system("CLS");
             spill(f, x, y, m, n);
             printMap(f, m, n);
         }
