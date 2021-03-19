@@ -74,6 +74,6 @@ int main()
         }
         cout << endl;
     }
-    cout << "YOU WON";
+    cout << "YOU WIN";
     return 0;
 }
