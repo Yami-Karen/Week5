@@ -72,7 +72,8 @@ int main()
         else
         {
         	system("CLS");
-            spill(f, x, y, m, n);
+            if (check(f,x,y) == 0) spill(f, x, y, m, n);
+            else f[x][y] = check(f,x,y);
             printMap(f, m, n);
         }
         cout << endl;
